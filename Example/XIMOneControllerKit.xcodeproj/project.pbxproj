@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0742E3E49EEDDDFFF35CA137 /* Pods-XIMOneControllerKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XIMOneControllerKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XIMOneControllerKit_Tests/Pods-XIMOneControllerKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0C3EA921DDAD5DAC80CF13A5 /* XIMOneControllerKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XIMOneControllerKit.podspec; path = ../XIMOneControllerKit.podspec; sourceTree = "<group>"; };
+		0C3EA921DDAD5DAC80CF13A5 /* XIMOneControllerKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XIMOneControllerKit.podspec; path = ../XIMOneControllerKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		187723594F42D09E389696DD /* Pods-XIMOneControllerKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XIMOneControllerKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-XIMOneControllerKit_Tests/Pods-XIMOneControllerKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3360540E17F53FFA896DB107 /* Pods_XIMOneControllerKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XIMOneControllerKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4653DB7DA634230BC9D8D96A /* Pods-XIMOneControllerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XIMOneControllerKit_Example.release.xcconfig"; path = "Target Support Files/Pods-XIMOneControllerKit_Example/Pods-XIMOneControllerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,8 +63,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A531374BD932AA308142F89 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		93E9A9FB45A9F05CBDCCEB95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8A531374BD932AA308142F89 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		93E9A9FB45A9F05CBDCCEB95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BEF8B1BB798172338CE3BBFC /* Pods-XIMOneControllerKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XIMOneControllerKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-XIMOneControllerKit_Example/Pods-XIMOneControllerKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DB32D1BCE25F47D10AF06692 /* Pods_XIMOneControllerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XIMOneControllerKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				0742E3E49EEDDDFFF35CA137 /* Pods-XIMOneControllerKit_Tests.debug.xcconfig */,
 				187723594F42D09E389696DD /* Pods-XIMOneControllerKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -302,10 +301,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XIMOneControllerKit_Example/Pods-XIMOneControllerKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/XIMOneControllerCategoryKit/XIMOneControllerCategoryKit.framework",
 				"${BUILT_PRODUCTS_DIR}/XIMOneControllerKit/XIMOneControllerKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XIMOneControllerCategoryKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XIMOneControllerKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

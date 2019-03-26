@@ -1,0 +1,29 @@
+PODS:
+  - CTMediator (25)
+  - XIMOneControllerCategoryKit (0.1.0):
+    - CTMediator
+  - XIMOneControllerKit (0.1.0):
+    - XIMOneControllerCategoryKit
+
+DEPENDENCIES:
+  - CTMediator
+  - XIMOneControllerKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+  https://github.com/xim9160/XIMSpecs.git:
+    - XIMOneControllerCategoryKit
+
+EXTERNAL SOURCES:
+  XIMOneControllerKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  XIMOneControllerCategoryKit: a376f8e8ecceefea31aec7c63652b416f6b8ac07
+  XIMOneControllerKit: 07dd5f6b86686fdc5cd9a1d1bdbc340b73679cfe
+
+PODFILE CHECKSUM: 649a6c6e81f0e427c4ef098261a4066255383706
+
+COCOAPODS: 1.7.0.beta.1

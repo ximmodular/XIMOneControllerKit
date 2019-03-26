@@ -1,0 +1,6 @@
+framework module XIMOneControllerCategoryKit {
+  umbrella header "XIMOneControllerCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
