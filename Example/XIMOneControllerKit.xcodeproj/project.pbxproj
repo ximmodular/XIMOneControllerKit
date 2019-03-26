@@ -304,12 +304,14 @@
 				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/XIMOneControllerCategoryKit/XIMOneControllerCategoryKit.framework",
 				"${BUILT_PRODUCTS_DIR}/XIMOneControllerKit/XIMOneControllerKit.framework",
+				"${BUILT_PRODUCTS_DIR}/XIMTwoControllerCategoryKit/XIMTwoControllerCategoryKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XIMOneControllerCategoryKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XIMOneControllerKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XIMTwoControllerCategoryKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

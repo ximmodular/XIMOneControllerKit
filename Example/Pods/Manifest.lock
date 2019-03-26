@@ -4,6 +4,9 @@ PODS:
     - CTMediator
   - XIMOneControllerKit (0.1.0):
     - XIMOneControllerCategoryKit
+    - XIMTwoControllerCategoryKit
+  - XIMTwoControllerCategoryKit (0.1.0):
+    - CTMediator
 
 DEPENDENCIES:
   - CTMediator
@@ -14,6 +17,7 @@ SPEC REPOS:
     - CTMediator
   https://github.com/xim9160/XIMSpecs.git:
     - XIMOneControllerCategoryKit
+    - XIMTwoControllerCategoryKit
 
 EXTERNAL SOURCES:
   XIMOneControllerKit:
@@ -22,7 +26,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   XIMOneControllerCategoryKit: a376f8e8ecceefea31aec7c63652b416f6b8ac07
-  XIMOneControllerKit: 07dd5f6b86686fdc5cd9a1d1bdbc340b73679cfe
+  XIMOneControllerKit: ffaab5dad213b955b8f83452058bc95dd243bfd4
+  XIMTwoControllerCategoryKit: d5e39f3ee6bbaf8088614b6860a943780cba9195
 
 PODFILE CHECKSUM: 649a6c6e81f0e427c4ef098261a4066255383706
 

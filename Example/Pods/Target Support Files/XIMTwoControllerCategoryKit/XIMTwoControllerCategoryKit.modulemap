@@ -1,0 +1,6 @@
+framework module XIMTwoControllerCategoryKit {
+  umbrella header "XIMTwoControllerCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

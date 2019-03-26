@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xim9160/XIMOneControllerKit'
+  s.homepage         = 'https://github.com/ximmodular/XIMOneControllerKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xim9160' => '281016974@qq.com' }
-  s.source           = { :git => 'https://github.com/xim9160/XIMOneControllerKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ximmodular/XIMOneControllerKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -40,4 +40,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'XIMOneControllerCategoryKit'
+  s.dependency 'XIMTwoControllerCategoryKit'
 end

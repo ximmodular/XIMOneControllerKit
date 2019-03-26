@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of XIMOneControllerKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xim9160/XIMOneControllerKit",
+  "homepage": "https://github.com/ximmodular/XIMOneControllerKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "xim9160": "281016974@qq.com"
   },
   "source": {
-    "git": "https://github.com/xim9160/XIMOneControllerKit.git",
+    "git": "https://github.com/ximmodular/XIMOneControllerKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -21,6 +21,9 @@
   "source_files": "XIMOneControllerKit/Classes/**/*",
   "dependencies": {
     "XIMOneControllerCategoryKit": [
+
+    ],
+    "XIMTwoControllerCategoryKit": [
 
     ]
   }

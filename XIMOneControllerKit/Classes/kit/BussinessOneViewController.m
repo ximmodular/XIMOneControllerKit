@@ -8,6 +8,7 @@
 
 #import "BussinessOneViewController.h"
 #import "CTMediator+OneController.h"
+#import "CTMediator+TwoController.h"
 
 @interface BussinessOneViewController ()
 
@@ -43,7 +44,7 @@
 }
     
 - (void)test1 {
-    UIViewController *vc = [[CTMediator sharedInstance] controllerWithBtnTitle:@"66666"];
+    UIViewController *vc = [[CTMediator sharedInstance] controllerWithBtnColor:[UIColor orangeColor]];
     [self.navigationController pushViewController:vc animated:YES];
 }
     
